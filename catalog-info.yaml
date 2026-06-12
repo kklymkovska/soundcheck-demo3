@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: a-la-carte
+  description: One Check Emitter to rule them all. Does both scheduled and responsive checks.
+  annotations:
+    github.com/project-slug: michelin/a-la-carte
+    backstage.io/source-location: url:https://ghe.spotify.net/michelin/a-la-carte/tree/master
+  namespace: default
+spec:
+  owner: toast-infra
+  type: service
+  system: soundcheck
+  lifecycle: production
