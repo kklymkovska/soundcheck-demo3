@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: a-la-carte
-  description: One Check Emitter to rule them all. Does both scheduled and responsive checks.
+  name: soundcheck-backend
+  description: Service wrapping the Soundcheck backend of the Spotify Plugins for Backstage (SP4B) commercial bundle.
   annotations:
-    github.com/project-slug: michelin/a-la-carte
-    backstage.io/source-location: url:https://ghe.spotify.net/michelin/a-la-carte/tree/master
+    github.com/project-slug: soundcheck/soundcheck-backend
+    backstage.io/source-location: url:https://ghe.spotify.net/soundcheck/soundcheck-backend/tree/master
   namespace: default
 spec:
   owner: toast-infra
